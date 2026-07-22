@@ -98,6 +98,7 @@
   .stat:hover .suffix{color:var(--accent);}
   .stat .num{font-family:'Inter Tight',sans-serif;font-weight:800;font-size:clamp(36px,4.2vw,56px);line-height:1;display:flex;align-items:baseline;gap:4px;transition:color .3s;}
   .stat .suffix{font-size:.5em;color:var(--accent);}
+  .stat .suffix.plus{align-self:center;}
   .stat .lbl{margin-top:12px;transition:color .3s;}
   .row{border:1px solid var(--line);border-bottom:none;background:var(--bg);display:block;overflow:hidden;transition:background .3s;}
   .row:last-of-type{border-bottom:1px solid var(--line);}
@@ -163,9 +164,9 @@
 <section style="padding-top:20px;">
   <div class="wrap">
     <div class="stat-grid rv">
-      <div class="stat hoverable"><div class="num"><span class="count" data-target="7">0</span></div><div class="lbl micro">Sites designed &amp; built</div></div>
-      <div class="stat hoverable"><div class="num"><span class="count" data-target="30">0</span><span class="suffix">+</span></div><div class="lbl micro">Pages shipped</div></div>
-      <div class="stat hoverable"><div class="num"><span class="count" data-target="6">0</span></div><div class="lbl micro">Industries covered</div></div>
+      <div class="stat hoverable"><div class="num"><span class="count" data-target="5">0</span><span class="suffix plus">+</span></div><div class="lbl micro">Sites designed &amp; built</div></div>
+      <div class="stat hoverable"><div class="num"><span class="count" data-target="10">0</span><span class="suffix plus">+</span></div><div class="lbl micro">Pages created.</div></div>
+      <div class="stat hoverable"><div class="num"><span class="count" data-target="6">0</span><span class="suffix plus">+</span></div><div class="lbl micro">Industries covered</div></div>
       <div class="stat hoverable"><div class="num"><span class="count" data-target="100">0</span><span class="suffix">%</span></div><div class="lbl micro">Custom code - zero templates</div></div>
     </div>
   </div>
